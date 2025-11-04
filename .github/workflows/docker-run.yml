@@ -51,3 +51,10 @@ jobs:
           echo "     👉 http://<YOUR_SERVER_PUBLIC_IP>:8080"
           echo " 3️⃣ Ensure port 8080 is open in your firewall/security group."
           echo "-----------------------------------------------------------"
+
+      - name: Access ..
+        run: |
+          echo "Docker ps output :"
+          docker ps
+          echo "Docker image"
+          docker images
